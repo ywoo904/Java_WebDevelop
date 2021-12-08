@@ -2,11 +2,30 @@
 
 import java.util.ArrayList; 
 
-class Main {
+public class Main {
   public static void main(String [] args) {
       
-      ArrayList pitches= new ArrayList(); 
+      ArrayList pitches= new ArrayList();//객체생성 new자 보면 항상'객체를 생성하는 구나'로 생각  
+      pitches.add("123");
+      pitches.add("234");
+      pitches.add("789"); 
 
+      pitches.add(0,"133");//위치지정 
+
+     System.out.println(pitches.get(1));
+    //get() 메서드를 이용하여 특정 인덱스 값을 추출 
+
+    System.out.println(pitches.size());
+    // size () 매서드를 이용하여 리스트의 개수를 확인
+
+    System.out.println(pitches.contains("234"));
+    //contains() 매서드를 이용하여 포함여부 확인  
+
+    System.out.println(pitches.remove("789")); 
+    //remove() 매서드를 이용하여 해당 객체 삭제하고 결과를 리턴
+
+    System.out.println(pitches.remove(0));
+    //remove() 매서드를 이용하여 해당 인덱스의 객체를 삭제 
 
   }
 }
