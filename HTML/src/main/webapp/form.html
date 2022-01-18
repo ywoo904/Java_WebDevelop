@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Creating log-in page</title>
+</head>
+
+<body>
+
+	<!-- 3. 로그인페이지를 만들어보세요 
+			1) table을 사용하여 모양을 만드세요(span을 사용하세요) 
+			2) form태그를 사용하여 입력값을 받을 수 있게 설정하세요 
+	 -->
+
+<!--form태그는 데이터를 서버에 전송하기 위해서 사용-->
+	 <form><table border="1">
+	 	<tr>
+	 	<td width="20">id</td> 
+	 	<td width="50"> <input type="text" name ="id" size="20"></td>
+	 	<td rowspan ="2" width="10"><input type= "submit" value="로그인"> </td>
+	 
+	 <tr>
+	 	<td>pw</td>
+	 	<td><input type="password" name="pd" size="20"></td>
+	 </tr>
+	 
+	 
+	 </table>
+	 </form>
+
+<!--세부정보란 ------------------------------------------------------------------------ -->
+	<form>  
+		<!--관심분야:check박스 타입, 복수개선택가능, 같은 그룹으로 매핑하여 데이터처리  -->
+		<h2>세부정보입력</h2>
+	<strong>관심분야</strong><br>
+	<input type="checkbox" name="intro"> HTML/CSS
+	<input type="checkbox" name="intro"> Javascript
+	<input type="checkbox" name="intro"> Java
+	<input type="checkbox" name="intro"> JSP
+	<input type="checkbox" name="intro"> Spring
+	<input type="checkbox" name="intro"> Database
+	<br>
+	<!-- Radio타입, 1개만 선택가능, 같은 그룹으로 매핑하여 데이터처리  --> 
+	<strong>전공:</strong><br>  
+	<input type="radio" name="major"> 컴공
+	<input type="radio" name="major"> 경제학과
+	<input type="radio" name="major"> 국어국문학 
+	<input type="radio" name="major"> 경영학
+	<br>
+	연도: <!--select구문:메뉴트리로 선택이 가능하다.-->
+	<select>
+		<option>2022</option>
+		<option>2021</option>
+		<option>2020</option>
+		<option>2019</option>
+		<option>2018</option>
+	</select>
+	<br> 
+	<strong>자기소개서</strong><br>
+	<textarea rows="5" cols="50"></textarea>
+	<br>
+	<input type="submit" value= "회원정보 수정">
+	<input type="button" value= "버튼"> 
+	</form>
+
+
+</body>
+</html>
