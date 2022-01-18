@@ -13,7 +13,7 @@
 	본문을 작성
 	</section>
 	 
-	<%@ include file= "footer.jsp %>
+	<%@ include file= "footer.jsp" %>
 
 </body>
 </html>

@@ -8,7 +8,7 @@
 </head>
 <body>
 
-	<h2>여기는 footer입니닫디 .</h2>
+	<h2>여기는 footer입니다.</h2>
 
 	copyright 2022.01.18
 
