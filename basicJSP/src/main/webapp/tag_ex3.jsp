@@ -29,7 +29,7 @@
 </head>
 <body>
 
-이번주 로또번호: <%=list%> 
+이번주 로또번호: <%=list.toString()%> 입니다. 
 
 
 
