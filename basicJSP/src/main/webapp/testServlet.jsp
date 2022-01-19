@@ -10,7 +10,10 @@
 
 
 <a href= "testJSP.jsp">jsp로 이동</a> <br>
+
+<%--Annotaion을 이용해 "상대경로"를 지정해준다.--%>
 <a href= "./apple">servlet(TestServlet.java)으로 이동</a> <br>
 <a href= "./banana">servlet(ServletBasic.java)으로 이동</a> <br>
+
 </body>
 </html>
