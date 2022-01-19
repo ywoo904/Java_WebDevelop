@@ -18,7 +18,7 @@ public class TestServlet extends HttpServlet {
     }
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-	
+	 
 	System.out.println("안녕하세요!");
 	
 	}
