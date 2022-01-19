@@ -31,6 +31,7 @@
 이름:   <%=name %> <br>
 주소:  <%=addr %> <br>
 관심분야 : <%=Arrays.toString(arr) %> <br> <!-- 배열의 처리(How to bring 배열전체?) -->
+
 전공: <%=major %> <br>
 통신사: <%=phone %> <br>
  
