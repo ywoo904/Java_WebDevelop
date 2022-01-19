@@ -2,7 +2,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     
-    <% 
+       <% 
+   	request.setCharacterEncoding("utf-8"); 	
     String id= request.getParameter("id");
   	String pw =request.getParameter("pw"); 
 	
@@ -17,6 +18,7 @@
   	String phone = request.getParameter("phone"); 
   	
   %> 
+  
 <!DOCTYPE html>
 <html>
 <head>
@@ -24,7 +26,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-
 
 아이디: <%=id %> <br>
 비밀번호: <%=pw %> <br>
@@ -34,7 +35,6 @@
 전공: <%=major %> <br>
 통신사: <%=phone %> <br>
  
-
 
 </body>
 </html>
