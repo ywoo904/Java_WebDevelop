@@ -15,7 +15,7 @@
 **브라우저에서 url인코딩을 하지 않으면 오류가 발생할 수 있음 
 http://localhost:8080/basicJSP/request/req.result.jsp?name=%ED%99%8D%EA%B8%B8%EB%8F%99&number=1234
 -->
-<a href ="req.result.jsp?name=홍길동&number=1234">get방식 확인</a>
+<a href ="req_result.jsp?name=hong&number=1234">get방식 확인</a>
 
 
 
