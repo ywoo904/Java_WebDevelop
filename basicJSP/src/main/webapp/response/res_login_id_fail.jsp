@@ -8,7 +8,8 @@
 </head>
 <body>
 
-<h2>로그인 실패(ID Fail)</h2>
+<h2>로그인 실패(ID Fail)</h2> 
+<a href= "res_login.jsp">로그인페이지로이동</a>
 
 
 </body>
