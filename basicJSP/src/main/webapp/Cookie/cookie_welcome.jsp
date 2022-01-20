@@ -13,7 +13,15 @@
 			} 
 			} 
 	} 
-	*/
+	또는.... */
+	
+	if(arr!=null) { 
+		for (Cookie c: arr) { 
+			if (c.getName().equals("user_id")){ 
+				id=c.getValue();
+			} 
+			} 
+	} 
 	//진화된 for인 for each문으로 변경... 
 	
  	
