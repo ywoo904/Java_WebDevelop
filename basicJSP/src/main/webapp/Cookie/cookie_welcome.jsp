@@ -5,17 +5,18 @@
 	Cookie[] arr = request.getCookies(); 
 	String id= " ";
 	
+	/*
 	if(arr!=null) { 
 		for (int i=0;i <arr.length;i++) { 
 			if (arr[i].getName().equals("user_id")){ 
 				id=arr[i].getValue();
 			} 
 			} 
-			
-	 
-		
-		
 	} 
+	*/
+	//진화된 for인 for each문으로 변경... 
+	
+ 	
 
 
 %>

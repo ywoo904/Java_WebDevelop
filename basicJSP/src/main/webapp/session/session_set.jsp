@@ -9,7 +9,6 @@
 	
 	session.setAttribute("id","kkk123"); 
 	session.setAttribute("name","홍길자");
-	
 
 %>
     
@@ -21,9 +20,6 @@
 </head>
 <body>
 	<a href="session_get.jsp">세션확인하기</a>
-
-
-
-
+	
 </body>
 </html>
