@@ -2,6 +2,7 @@
     pageEncoding="UTF-8"%>
     
     <% 
+    //세션정보가 
     String id= (String)session.getAttribute("user_id");
 	String nick = (String)session.getAttribute("user_name");
     
@@ -17,7 +18,9 @@
 
 
 
-"<%=id%>님(<%=nick%>)님 환영합니다."
+"<%=id%>님(<%=nick%>)님 환영합니다." <br>
+
+<a href="session_logout.jsp">로그아웃</a>
 
 
 </body>
