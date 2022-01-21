@@ -1,10 +1,8 @@
-
 <%@page import="java.text.SimpleDateFormat"%>
 <%@page import="java.util.Date"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-    
-    
+       
 <%
 	/*
 	cookie01.jsp는 웹 페이지에 접근한 시간을 xxxx년 xx월 xx일 형태로 생성. 

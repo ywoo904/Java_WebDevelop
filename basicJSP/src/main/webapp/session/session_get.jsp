@@ -29,6 +29,8 @@ session.invalidate();
 //getid()
 String _session = session.getId();
 
+//getAttirubteName() 
+
 
 %>
     

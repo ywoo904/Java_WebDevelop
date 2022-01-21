@@ -23,12 +23,10 @@
 		for (int i=0; i <idcheck.length; i++) { 
 			
 			if (idcheck[i].getName().equals("idCheck")) { 
-				id = idcheck[i].getValue();
-				
+				id = idcheck[i].getValue();	
 			} 
 		} 
 	}
-	
 	
 %>
 

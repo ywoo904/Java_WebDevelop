@@ -14,13 +14,13 @@ String pw= request.getParameter("pw");
 String idCheck= request.getParameter("idCheck");
 
 if (id.equals("abc") && pw.equals("1234")) {
-Cookie userid = new Cookie ("user_id",id); 
+Cookie userid = new Cookie ("user_id",id); //1
 userid.setMaxAge(30); 
 response.addCookie(userid);  
 
 //idcheck에 대한 코드 추가  
 if (idCheck !=null) {
-	Cookie check = new Cookie ("idCheck",id); 
+	Cookie check = new Cookie ("idCheck",id); //2
 	check.setMaxAge(1800); 
 	response.addCookie(check);
 } 
