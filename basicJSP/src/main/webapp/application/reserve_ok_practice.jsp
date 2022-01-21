@@ -7,7 +7,7 @@
     ArrayList<String> temp= new ArrayList<>();
     
     if(application.getAttribute("seats")!=null) { 
-    list=(ArrayList<String>)application.getAttributes("seats"); }
+    list=(ArrayList<String>)application.getAttribute("seats"); }
     
     String[] arr= request.getParameterValues("seats");
     
@@ -15,16 +15,16 @@
     	if(list.contains(arr)) { 
     	break;	
     	} else {
-    		temp.add(arr);	
+    		temp.add(s);	
     	} 
     } 
     
-    if(arr.length==temp.size){ 
+    if(arr.length==temp.size()){ 
     	
     list.addAll(temp);
     }
    
-    application.setAttributes("seats",list);
+    application.setAttribute("seats", list); 
     
     %> 
 <!DOCTYPE html>

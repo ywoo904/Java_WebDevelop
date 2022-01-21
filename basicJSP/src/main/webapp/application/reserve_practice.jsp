@@ -1,5 +1,25 @@
+<%@page import="java.util.ArrayList"%>
+<%@page import="java.util.List"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    
+    <%
+    
+    ArrayList<String> list= new ArrayList<>(); 
+    
+    if(application.getAttribute("seats")!=null) { 
+    	list= (ArrayList<String>)application.getAttribute("seats"); 
+    } 
+    
+    
+    
+    %>
+    
+    
+    
+    
+    
+    
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,8 +41,12 @@
 
 <% for(int i=1;i<=6; i++) { %> 
 	<%out.println(i);%>
-	<%for(char d='A'; d<='Z'; d++) { %>
+	<%for(char d='A'; d<='Z'; d++) { %> 
+	<%if(list.contains(d+"-"+i)) { %>
+	<input type="checkbox" name="seats" value=<%=d%>-<%=i%> disabled>
+	<%}else{ %>
 	<input type="checkbox" name="seats" value=<%=d%>-<%=i%>>
+	<%} %>
 	<%} %>
 	<br>
 	<%if(i==3){ %>
